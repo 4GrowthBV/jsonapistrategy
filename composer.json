@@ -1,0 +1,24 @@
+{
+	"name": "inthere/jsonapistrategy",
+	"description": "JSON API strategy for the league/route package",
+	"authors": [
+		{
+			"name": "D. van der Heiden",
+			"email": "d.vanderheiden@inthere.nl",
+			"homepage": "http://www.inthere.nl",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"InThere\\Route\\JsonApi\\": "src"
+		}
+	},
+	"require": {
+		"neomerx/json-api": "^1.0",
+		"league/route": "^3.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "6.1"
+	}
+}
